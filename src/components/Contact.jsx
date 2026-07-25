@@ -10,79 +10,61 @@ import {
 function Contact() {
   return (
     <section className="contact" id="contact">
+      <div className="container">
+        <h2 className="section-title">
+          Contact <span>Me</span>
+        </h2>
 
-      <h2 className="section-title">
-        Contact <span>Me</span>
-      </h2>
+        <div className="row g-4">
+          <div className="col-lg-6">
+            <div className="contact-info h-100">
+              <h3>Let's Connect</h3>
 
-      <div className="contact-container">
+              <p>
+                I'm always interested in opportunities involving Networking,
+                Artificial Intelligence, Software Development, and innovative
+                projects.
+              </p>
 
-        <div className="contact-info">
+              <div className="info">
+                <p>
+                  <FaPhone />
+                  +91 97896 17978
+                </p>
 
-          <h3>Let's Connect</h3>
+                <p>
+                  <FaEnvelope />
+                  ashwinth1805dk@gmail.com
+                </p>
 
-          <p>
-            I'm always interested in opportunities involving
-            Networking, Artificial Intelligence,
-            Software Development, and innovative projects.
-          </p>
+                <p>
+                  <FaGithub />
+                  github.com/Ashwinth-dk
+                </p>
 
-          <div className="info">
+                <p>
+                  <FaLinkedin />
+                  linkedin.com/in/ashwinth-dk
+                </p>
 
-            <p>
-              <FaPhone />
-              +91 97896 17978
-            </p>
-
-            <p>
-              <FaEnvelope />
-              ashwinth1805dk@gmail.com
-            </p>
-
-            <p>
-              <FaGithub />
-              github.com/Ashwinth-dk
-            </p>
-
-            <p>
-              <FaLinkedin />
-              linkedin.com/in/ashwinth-dk
-            </p>
-
-            <p>
-              <FaMapMarkerAlt />
-              Tamil Nadu, India
-            </p>
-
+                <p>
+                  <FaMapMarkerAlt />
+                  Tamil Nadu, India
+                </p>
+              </div>
+            </div>
           </div>
 
+          <div className="col-lg-6">
+            <form className="contact-form h-100">
+              <input type="text" placeholder="Your Name" className="form-control" />
+              <input type="email" placeholder="Your Email" className="form-control" />
+              <textarea rows="6" placeholder="Your Message" className="form-control"></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
         </div>
-
-        <form className="contact-form">
-
-          <input
-            type="text"
-            placeholder="Your Name"
-          />
-
-          <input
-            type="email"
-            placeholder="Your Email"
-          />
-
-          <textarea
-            rows="6"
-            placeholder="Your Message"
-          ></textarea>
-
-          <button>
-            Send Message
-          </button>
-
-        </form>
-
       </div>
-
     </section>
   );
 }

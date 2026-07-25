@@ -62,3 +62,13 @@
     background:var(--accent);
     color:black;
 }
+
+@media (max-width: 768px){
+    .projects{
+        padding:100px 1rem;
+    }
+
+    .project-card{
+        padding:1.2rem;
+    }
+}

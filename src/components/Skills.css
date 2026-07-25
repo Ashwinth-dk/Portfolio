@@ -72,3 +72,13 @@
     position:absolute;
     left:0;
 }
+
+@media (max-width: 768px){
+    .skills{
+        padding:100px 1rem;
+    }
+
+    .skill-card{
+        padding:1.2rem;
+    }
+}

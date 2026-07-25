@@ -45,51 +45,50 @@
 }
 
 .timeline-content h3{
-
     margin-top:10px;
-
     font-size:28px;
-
 }
 
 .timeline-content h4{
-
     margin:10px 0 20px;
-
     color:#cfd8dc;
-
 }
 
 .timeline-content p{
-
     line-height:1.8;
-
     color:#d6d6d6;
-
 }
 
 .tags{
-
     display:flex;
-
     flex-wrap:wrap;
-
     gap:10px;
-
     margin-top:25px;
-
 }
 
 .tags span{
-
     background:#a86cda;
-
     color:black;
-
     padding:8px 15px;
-
     border-radius:30px;
-
     font-weight:bold;
+}
 
+@media (max-width: 768px){
+    .experience{
+        padding:100px 1rem;
+    }
+
+    .timeline{
+        padding-left:1.2rem;
+        border-left-width:2px;
+    }
+
+    .timeline-dot{
+        left:-1.1rem;
+    }
+
+    .timeline-content{
+        padding:1.2rem;
+    }
 }

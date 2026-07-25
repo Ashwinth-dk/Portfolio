@@ -78,3 +78,18 @@
 .contact-form button:hover{
     box-shadow:0 0 26px rgba(200,156,255,0.35);
 }
+
+@media (max-width: 768px){
+    .contact{
+        padding:100px 1rem;
+    }
+
+    .contact-info,
+    .contact-form{
+        padding:1.2rem;
+    }
+
+    .contact-form button{
+        width:100%;
+    }
+}
